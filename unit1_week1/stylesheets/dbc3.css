@@ -12,7 +12,7 @@ p {
 
 
 body { 
-	background-color: #33CCCC;
+	background-color: #0A4958;
 	font: 100% "Arial", san-serif;
 	color: "blue"
 }
@@ -23,7 +23,7 @@ body {
 	margin-right: auto;
 	height: 550px;
 	width: 700px;
-	background-color: #FFFFFF;
+	background-color: #F6E7D2;
 	position: relative;
 }
 
@@ -31,11 +31,11 @@ body {
 #content {
 	color: #404040;
 	width: 655px;
-	height: 470px;
+	height: 507px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: auto;
+	margin-top: -5%;
 	margin-bottom: auto;
 	overflow: auto;
 }
@@ -48,7 +48,12 @@ body {
 
 #sidebar {
 	float: right;
-	margin-right: -10%
+	text-align: center;
+	margin-top: -5%;
+	margin-right: -20%;
+	background-color: #01B6AD;
+	width: 125px;
+	height: 550px;
 }
 
 .wireframe_image img {
@@ -61,7 +66,7 @@ body {
 .description_content {
 	color: #FFFFFF;
 	position: absolute;
-	bottom: -30%;
+	bottom: -20%;
 	right: 35%;
 	background-color: black;
 }
