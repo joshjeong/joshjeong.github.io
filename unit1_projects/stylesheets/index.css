@@ -1,48 +1,59 @@
-#page_title {
-	text-align: center;
-	margin: 3% 10%;
-	background-color: #CCCCCC;
-	color: black;
-	margin: 3% 10%;
-	border: 5px solid white;
-	border-radius: 1em;
-}
-
-#image_marquee {
-	background-color: #CCCCCC;
-	margin: -1% 10%;
-}
-
-#links { 
-	background-color: #CCCCCC;
-	text-align: center;
-	margin: 3% 10%;
-	border: 5px solid white;
-	border-radius: 1em;
-}
 body {
-	background-color: #CCCCCC;
+	background-image: url('http://37.media.tumblr.com/c3d226e1842ebde3158c0e8ab593794a/tumblr_n3h6cqdeN91rebslao1_1280.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-origin: content;
 }
 
-.content {
-margin: 3% 10%;
-}
-
-#left_text {
-	background-color: #CCCCCC;
-	width: 45%;
+#container {
+	background-color: black;
+	opacity: .9;
 	float: left;
-	text-align: left;
-	border: 5px solid white;
-	border-radius: 1em;
+	width: 60em;
+	height: 17em;
+	position: absolute;
+	bottom: 10%;
+	left: 0;
 }
 
-#right_text {
-	background-color: #CCCCCC;
-	width: 45%;
-	float: right;
-	text-align: left;
-	border: 5px solid white;
-	border-radius: 1em;
+#left {
+	float: left;
+	border-right: thin dotted #EBEBEB;
+	height: 100%;
+	width: 25em;
+	opacity: .9
+}
+
+#links {
+	margin-top: 3%;
+	margin-bottom: 0;
+	margin-left: 2%;
+	text-align: center;
+}
+
+#youtube {
+	margin-top: 3%;
+	margin-bottom: 0;
+	margin-left: 2%;
+	text-align: center;
+	opacity: 1
+}
+
+#right {
+	float: right;	
+	width: 33em;
+	height: 100%;
+	opacity: .85
+}
+
+#jcj {
+	text-align: center;
+	font-size: 7em;
+	color: #EBEBEB;
+	font-family: 'Mrs Sheppards', cursive;
+	margin-top: .3em
+}
+
+#socialMedia {
 
 }
