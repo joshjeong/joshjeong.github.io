@@ -1,8 +1,9 @@
 body {
 	background-image: url('http://37.media.tumblr.com/c3d226e1842ebde3158c0e8ab593794a/tumblr_n3h6cqdeN91rebslao1_1280.jpg');
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-origin: content;
+	background-origin: content-box;
+
 }
 
 #container {
@@ -18,6 +19,7 @@ body {
 
 #left {
 	float: left;
+	position: absolute;
 	border-right: thin dotted #EBEBEB;
 	height: 100%;
 	width: 25em;
@@ -54,6 +56,31 @@ body {
 	margin-top: .3em
 }
 
-#socialMedia {
+#blurb {
+	text-align: center;
+	font-size: 1em;
+	color: #EBEBEB;
+	font-family: 'Nova Square', cursive;
+	/*font-family: 'Economica', sans-serif;*/
 
 }
+
+#socialMedia a {
+	margin-top: .6em;
+
+}
+
+#twitter {
+	display: block;
+	background: url('../images/twitter2.gif') bottom;
+	width: 42px;
+	height: 42px;
+	text-indent: -99999px;
+}
+
+#twitter:hover {
+	background-position: 0 0;
+
+}
+
+
