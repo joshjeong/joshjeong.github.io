@@ -1,0 +1,49 @@
+#page_title {
+	text-align: center;
+	margin: 3% 10%;
+	background-color: #CCCCCC;
+	color: black;
+	margin: 3% 10%;
+	border: 5px solid white;
+	border-radius: 1em;
+}
+
+#image_marquee {
+	background-color: #CCCCCC;
+	margin: -1% 10%;
+}
+
+#links { 
+	background-color: #CCCCCC;
+	text-align: center;
+	margin: 3% 10%;
+	border: 5px solid white;
+	border-radius: 1em;
+}
+body {
+	background-color: #CCCCCC;
+}
+
+.content {
+	margin: 3% 10%;
+}
+
+#left_text {
+	background-color: #CCCCCC;
+	width: 45%;
+	float: left;
+	text-align: left;
+	text-align: left;
+	border: 5px solid white;
+	border-radius: 1em;
+}
+
+#right_text {
+	background-color: #CCCCCC;
+	width: 45%;
+	float: right;
+	text-align: left;
+	border: 5px solid white;
+	border-radius: 1em;
+
+} 
