@@ -1,0 +1,108 @@
+body {
+	margin-top: 2%;
+	background-color: #4D4D55;
+
+}
+#container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 700px;
+	border: 1em solid #40404C;
+	position: relative;
+	overflow: auto;
+}
+#left {
+	float:left;
+	height: 42em;
+	width: 70%;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+}
+
+#content {
+	margin: 0em 1em 0 1em;
+	color: gray;
+	overflow: auto;
+	height: 27em;
+	position: absolute;
+}
+
+#content h2 {
+	font-family: 'Lobster', 'cursive';
+	color: black
+}
+
+#right {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	float:right;
+	width:30%;
+	height: 42em;
+	background-color: #40404C;
+	overflow: hidden;
+	position: relative;
+
+}
+
+#blog_title {
+	text-align: center;
+	margin-top: .6em;
+	margin-right: 1.12em;
+	font-family: 'Lobster', 'cursive';
+	font-size: 7em;
+	color: white;
+	/* Safari */
+	-webkit-transform: rotate(-270deg);
+	/* Firefox */
+	-moz-transform: rotate(-270deg);
+	/* IE */
+	-ms-transform: rotate(-270deg);
+	/* Opera */
+	-o-transform: rotate(-270deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+
+#banner img{
+	height:auto;
+	width:100%;
+	text-align: center;
+	border-top: 1em solid black;
+	border-bottom: 1em solid black;
+}
+
+#links {
+	text-align: center;
+	font-family: 'Lobster', 'cursive';
+}
+
+#links a{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+}
+
+#links a:hover {
+	font-size: 1.1em;
+	text-decoration: line-through;
+	color: red
+}
+
+#socialMedia {
+	float: right;
+}
+
+.icon {
+	border: 2px solid transparent;
+}
+.icon:hover {
+	border: 2px solid white;
+	border-radius: 2em;
+
+}
