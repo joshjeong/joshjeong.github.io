@@ -23,8 +23,8 @@ body {
 }
 
 #content {
-	margin: 0em 1em 0 1em;
-	color: gray;
+	margin: 0em 0em 0 1em;
+	padding: 0 1em 0 0 ;
 	overflow: auto;
 	height: 27em;
 	position: absolute;
@@ -32,7 +32,15 @@ body {
 
 #content h2 {
 	font-family: 'Lobster', 'cursive';
-	color: black
+	color: #83c441;
+	font-size: 1.7em;
+}
+
+#content p {
+	font-family: 'Linden Hill', 'serif';
+	font-size: 1.1em;
+	text-indent: 2em;
+	color: #4D4D55;
 }
 
 #right {
@@ -77,21 +85,21 @@ body {
 	border-bottom: 1em solid black;
 }
 
-#links {
+#index {
 	text-align: center;
 	font-family: 'Lobster', 'cursive';
+	background-color: #83c441;
 }
 
-#links a{
+#index a{
 	font-size: 1em;
 	text-decoration: none;
 	color: black;
 }
 
-#links a:hover {
+#index a:hover {
 	font-size: 1.1em;
-	text-decoration: line-through;
-	color: red
+	color: white
 }
 
 #socialMedia {
@@ -105,4 +113,10 @@ body {
 	border: 2px solid white;
 	border-radius: 2em;
 
+}
+
+#menu {
+	float: left;
+	position:absolute;
+	margin-top: -1.3em;
 }
