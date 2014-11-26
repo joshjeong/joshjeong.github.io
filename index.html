@@ -1,49 +1,332 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home Page</title>
-<meta charset= "utf-8">
-<link rel="stylesheet" type="text/css" href= "unit1_projects/stylesheets/index.css">
-<link href='http://fonts.googleapis.com/css?family=Mrs+Sheppards' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Nova+Square|Econimca|Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+
+    <title>Plastiq</title>
+    <link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<div id="container">
-	<div id="right">	
-		<div id="jcj">josh jeong</div>
-			<div id="socialMedia">
-				<table width="400px">
-					<tr>
-						<th><a href="http://www.twitter.com/KingJeongIll">
-							<img src="unit1_projects/images/twitter.gif" id= "twitter" class="socialLinks" 
-							alt="HTML tutorial" width="42" height="42"></a></th>
-						<th><a href="https://github.com/joshjeong">
-							<img src="unit1_projects/images/github.png" id="github"  class="socialLinks"
-							alt="HTML tutorial" width="46" height="46"></a></th>
-						<th><a href="http://joshdbc.tumblr.com">
-							<img src="unit1_projects/images/tumblr.png" id="tumblr" class="socialLinks" 
-							alt="HTML tutorial" width="50" height="50"></a></th>
-					</tr>
-				</table>
-			</div>
-		</div>
-	<div id="left">
-		<div id="menu">
-			<select name="menu" onChange="window.open(this.options[this.selectedIndex].value,'_parent')" align='middle'>
-			  <option value="null">Menu</option>
-			  <option value="phase_0_unit_2/week4_technical.html">Week 4: Technical Blog</option>
-			  <option value="phase_0_unit_2/week4_cultural_blog.html">Week 4: Cultural Blog</option>				 <option value="unit1_projects/week3_technical_blog.html">Week 3: Technical Blog</option> 
-			  <option value="unit1_projects/week3_cultural_blog.html">Week 3: Cultural Blog</option>
- 			  <option value="unit1_projects/week2_technical.html">Week 2: Technical Blog</option>
-			  <option value="unit1_projects/wireframe_sites.html">Week 1: Wireframe Analysis</option>
-			  <option value="unit1_projects/dbc2.html">Week 1: DBC2</option>
-			  <option value="unit1_projects/dbc1.html">Week 1: DBC1</option>
-			</select>
-		</div>
-	</div>
-		
-</div>
-		
+    <header class='background'>
+        <img class='header-logo l-inline l-align-left' src='./img/logo.png'>
+
+        <ul class='l-horizontal-list l-align-right'>
+            <li><a href=""><img class='social-logo' src='./img/facebook.png'></a></li>
+
+            <li><a href=""><img class='social-logo' src='./img/tumblr.png'></a></li>
+
+            <li><a href=""><img class='social-logo' src='./img/flickr.png'></a></li>
+        </ul>
+
+        <h4 class='phone-number l-inline l-align-top l-align-right'>Questions?
+        <strong>1-844-PLASTIQ</strong></h4>
+    </header>
+
+    <div class='landing page background l-fixed'>
+        <div class='landing-title l-align-center'>
+            <h2 class='landing-title-top'>USE YOUR CARD OF CHOICE</h2>
+            <h1 class='landing-title-bottom'>TO PAY ANYONE</h1>
+        </div>
+        <div class='l-container landing-container'>
+
+            <p>Making payments with your credit cards of chioce can be so
+            rewarding, convenient and secure - but unfortunately, you can't
+            always use them when you want.</p>
+
+            <p>Coming mid to late 2014, you'll be able to pay absolutely anyone
+            with your card of choice through Plastiq's Limitless service. Sign
+            up now to be one of the first cardholders we invite to take
+            advantage of the Limitless service.</p>
+
+            <button class='signup-button'>Sign Up to Get Invited</button>
+            <h6 class='l-align-center signin'>Plastiq members, <a href=''>Sign In</a>
+            to get invited</h6>
+        </div>
+    </div>
+
+    <div class='home page l-fixed'>
+        <h2 class='c-w l-align-center home-title'>EXPLORE THE POSSIBILITIES</h2>
+        <div class='c-w l-align-center home-blurb'>
+            <h4>Plastiq members are busines owners, parents, professionals and more.</h4>
+            <h4>Here are a few ways they use, or plan to use, the Plastiq service as a valuable solution...</h4>
+        </div>
+
+        <div class='l-container grid-container'>
+            <div class='l-inline l-col-3 l-align-left'>
+                <div class='college l-size-4 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>College</h4>
+                </div>
+
+                <div class='books l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Books</h4>
+                </div>
+
+                <div class='agriculture l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Agriculture</h4>
+                </div>
+            </div>
+
+            <div class='l-inline l-col-3 l-align-left'>
+                <div class='pet l-size-2 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Pet</h4>
+                </div>
+
+                <div class='sail l-size-4 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Sail</h4>
+                </div>
+            </div>
+
+            <div class='l-inline l-col-3 l-align-left'>
+                <div class='photography l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Photography</h4>
+                </div>
+
+                <div class= 'construction l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Construction</h4>
+                </div>
+
+                <div class='automobile l-size-2 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Automobile</h4>
+                </div>
+
+                <div class='working l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Working</h4>
+                </div>
+
+                <div class='livestock l-size-1 background l-inline thumbnail wrapper'>
+                    <div class='overlay'>
+                        <div class='arrow-left'></div>
+
+                        <div class='rectangle'></div>
+                    </div>
+
+                    <h4 class='description l-align-center'>Livestock</h4>
+                </div>
+            </div>
+        
+            <div class="modal background wrapper is-hidden">
+                <div class='overlay'>
+                    <div class='arrow-left'></div>
+                    <div class='rectangle'></div>
+                </div>
+                <div class="college modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="books modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="agriculture modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="sail modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="working modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="construction modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="photography modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="livestock modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Customer Name</h3>
+                        <p class="hover-text customer-story">Bacon ipsum dolor amet ullamco cupim pariatur sint adipisicing sausage ad strip steak dolore ut pork loin veniam et. Culpa swine turkey tempor, short ribs enim labore ex. Alcatra sed pork belly ipsum cillum boudin. </p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Non salami ipsum, shoulder porchetta ut cow biltong tongue strip steak ex proident nisi reprehenderit.</li>
+                            <li class="customer-li">Ad cillum velit, sausage voluptate reprehenderit tri-tip turducken cupidatat pork chop consectetur jerky pork belly esse. Aliquip capicola fugiat tri-tip tail landjaeger elit tempor sed est cupidatat tenderloin.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="automobile modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Michael Z.</h3>
+                        <p class="hover-text customer-story">Michael is an avid car collector who always owns the latest in luxury vehicles as soon as they are available. With every car he buys, however, he is disappointed that he cannot pay with and earn the exceptional rewards of this preferred method of purchasing - his black card.</p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">Since Michael has earned an unlimited amount of credit availability on his card, he finds that he can purchase any new luxury vehicle on his black card using Plastiq.</li>
+                            <li class="customer-li">The convenience of making this large payment online with his card, combined with the luxurious rewards he receives in doing so, make care purchasing and collecting that much more enjoyable for Michael.</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+                <div class="pet modal-pic background ">
+                    <div class="modal-content l-col-2 l-align-right">
+                        <h1 class="close-button hover-text">X</h1>
+                        <h3 class="customer-name">Eliot R.</h3>
+                        <p class="hover-text customer-story">Eliot is equally passionate about two things in life - his growing career and his dog, Jake. His career requires a lot of travel, but thankfully he can depend on a local dog walking service to take great care of Jake while he's gone. The service is great, but the local business is growing, so it doesn't yet accept credit cards, Eliot's preferred method of payment.</p>
+                        <h2 class="with-plastic">With Plastiq...</h2>
+                        <ul>
+                            <li class="customer-li">By using the Plastiq service, Eliot can make payments to the local dog walking business online with his credit card of choice.</li>
+                            <li class="customer-li">Eliot can earn thousands of additional rewards points each year by making these payments on his card.</li>
+                            <li class="customer-li">Eliot never has to worry about having cash or check available for payment after his trips</li>
+                        </ul>
+                        <button class='signup-button'>Sign Up to Get Invited</button>
+                        <h6 class="l-align-center signin">Plastiq members, <a href=''>Sign In</a>
+                        to get invited</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script> 
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script> 
+    <script src='./js/namespace.js'></script> 
+    <script src='./js/controllers/grid_controller.js'></script> 
+    <script src='./js/views/grid_view.js'></script>
 </body>
 </html>

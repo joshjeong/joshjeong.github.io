@@ -1,0 +1,152 @@
+$regent-grey: #777C80;
+$off-black: #282B2D;
+$light-grey: #EBEBEB;
+
+$fixed-grid-container-width: 1276px;
+$fixed-grid-container-height: 718px;
+$color-text: $off-black;
+$color-text-invert: white;
+$color-text-secondary: $light-grey;
+$background: $regent-grey;
+$overlay-color: rgba(36,36,36,.95);
+
+
+html, body{
+  height:100%;
+  background-color: $background;
+}
+
+html{
+  font-size: 14px;
+}
+
+body{
+  // -webkit-font-smoothing: antialiased;
+  font-family: Museo Slab, arial, sans-serif;
+  font-weight: 100;
+  color: $color-text;
+  overflow: scroll;
+}
+
+header{
+  height: 118px;
+  width: 100%;
+  padding: 40px;
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  background: -moz-linear-gradient(left,  rgba(255,255,255,0.4) 0%, rgba(250,248,235,0.22) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.4)), color-stop(100%,rgba(250,248,235,0.22))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,0.4) 0%,rgba(250,248,235,0.22) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(255,255,255,0.4) 0%,rgba(250,248,235,0.22) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(255,255,255,0.4) 0%,rgba(250,248,235,0.22) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(255,255,255,0.4) 0%,rgba(250,248,235,0.22) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38f9f8f2', endColorstr='#38faf8eb',GradientType=1 ); /* IE6-9 */
+}
+
+p {
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+  color: #18A2DE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: normal;
+}
+
+
+h1{
+  font-size: 3.375em;  
+}
+h2{
+  font-size: 2.25em;  
+}
+h3{
+  font-size: 1.5em;  
+}
+h4{
+  font-size: 1em;  
+}
+h5{
+  font-size: 0.667em;  
+}
+h5{
+  font-size: 0.444em;  
+}
+
+@mixin opacity($level){
+  -khtml-opacity:$level; 
+  -moz-opacity:$level; 
+  -ms-filter:"alpha(opacity=#{$level*100})";
+  filter:alpha(opacity=$level*100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=$level);
+  opacity:$level; 
+}
+
+@mixin transition($property, $duration, $function, $delay){
+  transition:         $property $duration $function $delay;
+  -webkit-transition: $property $duration $function $delay;
+  -moz-transition:    $property $duration $function $delay;
+  -o-transition:      $property $duration $function $delay;
+}
+
+@mixin box-shadow($horizontal, $vertical, $blur, $spread, $color){
+  -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+  -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+  box-shadow: $horizontal $vertical $blur $spread $color;
+}
+
+@mixin border-radius($length){
+  -webkit-border-radius: $length;
+  -moz-border-radius: $length;
+  border-radius: $length;
+}
+
+@font-face {
+  font-family: 'Museo Slab';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/exljbris_-_museoslab-500italic-webfont.eot'),
+       url('../fonts/exljbris_-_museoslab-500italic-webfont.woff') format('woff'), 
+       url('../fonts/exljbris_-_museoslab-500italic-webfont.ttf')  format('truetype'), 
+       url('../fonts/exljbris_-_museoslab-500italic-webfont.svg') format('svg'); 
+}
+
+
+@font-face {
+  font-family: 'Museo Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/exljbris_-_museoslab-100-webfont.eot'),
+       url('../fonts/exljbris_-_museoslab-100-webfont.woff') format('woff'), 
+       url('../fonts/exljbris_-_museoslab-100-webfont.ttf')  format('truetype'), 
+       url('../fonts/exljbris_-_museoslab-100-webfont.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Museo Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/exljbris_-_museoslab-300-webfont.eot'),
+       url('../fonts/exljbris_-_museoslab-300-webfont.woff') format('woff'), 
+       url('../fonts/exljbris_-_museoslab-300-webfont.ttf')  format('truetype'), 
+       url('../fonts/exljbris_-_museoslab-300-webfont.svg') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Museo Slab';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/exljbris_-_museoslab-500-webfont.eot'),
+       url('../fonts/exljbris_-_museoslab-500-webfont.woff') format('woff'), 
+       url('../fonts/exljbris_-_museoslab-500-webfont.ttf')  format('truetype'), 
+       url('../fonts/exljbris_-_museoslab-500-webfont.svg') format('svg'); 
+}

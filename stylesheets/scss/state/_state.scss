@@ -1,0 +1,15 @@
+.is-hidden{
+  visibility: hidden;
+}
+
+.is-visible{
+  visibility: visible;
+}
+
+.is-opacity{
+  @include opacity(1);
+}
+
+.is-no-opacity{
+  @include opacity(0);
+}

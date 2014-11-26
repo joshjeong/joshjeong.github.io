@@ -1,0 +1,68 @@
+!!!
+%head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %title Plastiq
+    %link{:href => "stylesheets/style.css", :rel => "stylesheet", :type => "text/css"}
+%body
+
+    %header.background.l-even-padding
+        %img.header-logo.l-inline.l-align-left{:src => "./img/logo.png"}
+        %ul.l-horizontal-list.l-align-right
+            - social_logos = ["./img/instagram.png", "./img/instagram.png", "./img/instagram.png"]
+            - social_logos.each do |logo|
+                %li
+                    %img.social-logo{:src => "#{logo}"}/
+        %h4.phone-number.l-inline.l-align-top.l-align-right
+            Questions?
+            %strong 1-844-PLASTIQ
+
+    .landing.page.background.l-fixed
+        .l-container.landing-container
+            %h2.landing-title-top USE YOUR CARD OF CHOICE
+            %h1.landing-title-bottom TO PAY ANYONE
+            %p Making payments with your credit cards of chioce can be so rewarding, convenient and secure - but unfortunately, you can't always use them when you want.
+            %p Coming mid to late 2014, you'll be able to pay absolutely anyone with you card of choice through Plastiq's Limitless service. Sign up now to be one of the first cardholders we invite to take advantage of the Limitless service
+            %button.signup-button Sign Up to Get Invited
+            %h6.l-align-center
+                Plastiq members,
+                %a{:href => ""} Sign In
+                to get invited
+
+    .home.page.l-fixed
+        %h2.c-w.l-align-center EXPLORE THE POSSIBILITIES
+        %h4.c-w.l-align-center Plastiq members are busines owners, parents, travelers and more. Here are ways they use, or plan to use the Plastiq service as a valuable solution...
+
+        .l-container.grid-container
+            .l-inline.l-col-3.l-align-left
+                - col_1 = ["College", "Books", "Agriculture"]
+                - col_1.each do |topic|
+                    .l-inline.background.thumbnail.wrapper{class: "#{topic.downcase}"}
+                        .overlay
+                            .arrow-left
+                            .rectangle
+                        %h4.description.l-align-center #{topic}
+
+            .l-inline.l-col-3.l-align-left
+                - col_2 = ["Pet", "Sail"]
+                - col_2.each do |topic|
+                    .l-inline.background.thumbnail.wrapper{class: "#{topic.downcase}"}
+                        .overlay
+                            .arrow-left
+                            .rectangle
+                        %h4.description.l-align-center #{topic}
+
+            .l-inline.l-col-3.l-align-left
+                - col_3 = ["Photography", "Construction", "Auotomobile", "Working", "Livestock"]
+                - col_3.each do |topic|
+                    .l-inline.background.thumbnail.wrapper{class: "#{topic.downcase}"}
+                        .overlay
+                            .arrow-left
+                            .rectangle
+                        %h4.description.l-align-center #{topic}
+
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"}
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"}
+    %script{:src => "./js/namespace.js"}
+    %script{:src => "./js/controllers/grid_controller.js"}
+    %script{:src => "./js/views/grid_view.js"}
