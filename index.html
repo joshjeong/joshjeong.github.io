@@ -1,81 +1,22 @@
-
-<!--
- * Copyright (c) 2010 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Author: Eric Bidelman <e.bidelman@chromium.org>
--->
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
-  <link rel="stylesheet" type="text/css" href="css/enhanced.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Mukta+Malar:400,800" rel="stylesheet">
 
-  <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Molengo|Josefin+Sans+Std+Light" />-->
-</head>
-<body>
-
-  <div id="container1">
-    <div>
-      <input type="file" id="file_input1" webkitdirectory directory />
-      <ul id="dir-tree1"></ul>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div class="header">
+        <h1 id="name">Joshua Jeong</h1>
+        <h1 id="position">Software engineer</h1>
     </div>
-  </div>
-  <div id="center_container">
-    <div id="controls">
-      <div id="left_button" class="button"> <<<<< </div>
-      <div id="right_button" class="button"> >>>>> </div>
-    </div>
-    <div id="image_container">
-      <div class="center" id="thumbnails1"></div>
-      <div class="center" id="thumbnails2"></div>
-    </div>
-  </div>
-  <div id="container2">
-    <div>
-      <input type="file" id="file_input2" webkitdirectory directory />
-      <ul id="dir-tree2"></ul>
-    </div>
-  </div>
-
-  <script type="text/html" id="thumbnail_template1">
-    <div class="thumbnail1">
-      <div class="image shadow1">
-        <img src="<%= file.src %>" alt="<%= file.name %>" title="<%= file.name %>" onload="revokeFileURL(1)" />
-        <!-- <div class="title"><%= file.name %></div>
-        <div class="details"><%= file.type %></div> -->
-      </div>
-    </div>
-  </script>
-
-  <script type="text/html" id="thumbnail_template2">
-    <div class="thumbnail2">
-      <div class="image shadow2">
-        <img src="<%= file.src %>" alt="<%= file.name %>" title="<%= file.name %>" onload="revokeFileURL(2)" />
-        <!-- <div class="title"><%= file.name %></div>
-        <div class="details"><%= file.type %></div> -->
-      </div>
-    </div>
-  </script>
-
-  <script src="js/jquery.min.js" type="text/javascript"></script>
-  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
-  <!-- <script src="js/bootstrap.min.js" type="text/javascript"></script> -->
-  <script src="js/jquery.tree.js" type="text/javascript"></script>
-  <script src="js/main.js" type="text/javascript"></script>
-</body>
+   <div id="tagline-container">
+     <h2 id="tagline">I make things.</h2>
+   </div>
+   <div class="footer">
+     <a href="mailto:jcjeong@gmail.com"><h1>contact</h1></a>
+   </div>
+  </body>
 </html>
