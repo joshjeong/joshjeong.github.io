@@ -31,8 +31,9 @@ h1 {
   font-size: 70px;
 }
 
-#tagline-container {
-  top: 40%;
+#avatar-container {
+  margin-top: -221.5px;
+  top: 50%;
   width: 100%;
   text-align: center;
   vertical-align: middle;
@@ -51,4 +52,36 @@ h1 {
 
 .footer h1 {
   color: black;
+}
+
+#avatar {
+  transform: rotate(45deg);
+}
+
+@keyframes rotateAnimation {
+  0%   { transform: rotate(12deg); }
+  50% { transform: rotate(-12deg); }
+  100% { transform: rotate(12deg); }
+}
+@-o-keyframes rotateAnimation{
+  0%   { transform: rotate(12deg); }
+  50% { transform: rotate(-12deg); }
+  100% { transform: rotate(12deg); }
+}
+@-moz-keyframes rotateAnimation{
+  0%   { transform: rotate(12deg); }
+  50% { transform: rotate(-12deg); }
+  100% { transform: rotate(12deg); }
+}
+@-webkit-keyframes rotateAnimation{
+  0%   { transform: rotate(12deg); }
+  50% { transform: rotate(-12deg); }
+  100% { transform: rotate(12deg); }
+}
+
+.animate-rotate {
+   -webkit-animation: rotateAnimation 4s infinite;
+   -moz-animation: rotateAnimation 4s infinite;
+   -o-animation: rotateAnimation 4s infinite;
+    animation: rotateAnimation 4s infinite;
 }
