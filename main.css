@@ -54,10 +54,6 @@ h1 {
   color: black;
 }
 
-#avatar {
-  transform: rotate(45deg);
-}
-
 @keyframes rotateAnimation {
   0%   { transform: rotate(12deg); }
   50% { transform: rotate(-12deg); }
